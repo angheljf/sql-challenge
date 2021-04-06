@@ -65,6 +65,3 @@ FROM employees
 GROUP BY last_name
 ORDER BY "frequency" DESC;
 
--- Epilogue
-SELECT * FROM employees
-WHERE emp_no = '499942';
